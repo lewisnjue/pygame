@@ -10,7 +10,7 @@ clock = pygame.time.Clock()
 running = True
 dt = 0 
 player_pos = pygame.Vector2(scren.get_width() / 2, scren.get_height() /2 ) 
-
+print(player_pos)
 
 while running:
     for event in pygame.event.get():
